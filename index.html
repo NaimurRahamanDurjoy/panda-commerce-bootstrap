@@ -12,7 +12,7 @@
 </head>
 <body>
     <header>
-        <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top">
             <div class="container">
               <a class="navbar-brand" href="#">
                 <img src="images/logo.png" alt="">
@@ -26,13 +26,13 @@
                     <a class="nav-link active" aria-current="page" href="#">Home</a>
                   </li>
                   <li class="nav-item">
-                    <a class="nav-link" href="#">Shoes</a>
+                    <a class="nav-link" href="#shoes">Shoes</a>
                   </li>
                   <li class="nav-item">
-                    <a class="nav-link" href="#">Backpack</a>
+                    <a class="nav-link" href="#backpack">Backpack</a>
                   </li>
                   <li class="nav-item">
-                    <a class="nav-link" href="#">Subscribe</a>
+                    <a class="nav-link" href="#subscribe">Subscribe</a>
                   </li>
                 </ul>
               </div>
@@ -46,13 +46,13 @@
               <div class="carousel-inner">
                 <div class="carousel-item active">
                   <div class="row d-flex align-items-center p-5" style="background-color: #FEEAE9;">
-                    <div class="col-lg-7">
+                    <div class="col-lg-7 col-md-12 col-12">
                       <h1>Cool Dude headphone</h1>
                       <p>Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit. Exercitation veniam consequat sunt nostrud amet.</p>
                       <h1>$450</h1>
                       <button class="btn btn-danger" type="button">Buy Now</button>
                     </div>
-                    <div class="col-lg-5">
+                    <div class="col-lg-5 col-md-12 col-12">
                       <img src="images/banner-images/headphone.png" class="d-block w-100" alt="...">
                     </div>
                   </div>
@@ -127,7 +127,7 @@
         <!----------------------------------
                      Shoes
           ---------------------------------->
-        <section class="container">
+        <section class="container" id="shoes">
           <h1 class="pb-3">Shoes</h1>
           <div class="row row-cols-lg-3 row-cols-md-2 row-cols-1 g-4">
             <div class="col">
@@ -171,7 +171,7 @@
         <!----------------------------------
                     Bags
         ---------------------------------->
-        <section class="container my-5">
+        <section class="container my-5" id="backpack">
           <h1 class="pb-3">Backpack</h1>
           <div class="row row-cols-lg-3 row-cols-md-2 row-cols-1 g-4">
             <div class="col">
@@ -212,12 +212,22 @@
             </div>
           </div>
         </section>
+        <!-- Subscribe Section  -->
+        <section id="subscribe" class="container mb-5 rounded-3 d-flex justify-content-center align-items-center" style="background-color: #FFF2F1; height: 400px;">
+          <div>
+            <h1>LET'S STAY IN TOUCH</h1>
+            <P>Got updates on sales specials and more</P>
+            <input type="email" placeholder="Enter your email">
+            <br>
+            <button class="btn btn-danger btn-gradient">Submit</button>
+          </div>
+        </section>
       </main>
       <!-----------------------------------
                    Footer Section
       ------------------------------------>
       <footer>
-
+        <p class="text-center"><small>&copy;2020. Panda Commerce, All rights reserved. Sofia, Bulgeria</small></p>
       </footer>
 
 
